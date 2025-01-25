@@ -9,9 +9,9 @@
 
 ## Принимаемые запросы:
 1. Проверить готовность приложения:<br><blockquote>GET>> http://127.0.0.1:8000/status</blockquote>
-!(data/Postman1.png)
+![](./data/Postman1.png)
 2. Узнать версию приложения и метаданные:<br><blockquote>GET>> http://127.0.0.1:8000/version</blockquote>
 3. Получить предсказание модели:<br><blockquote>POST>> http://127.0.0.1:8000/predict<br></blockquote>
-!(data/Postman1.png)
+![](./data/Postman1.png)
 
 Для последнего запроса передайте один из словарей из файла test.json. Для этого выберете 'Body -> raw -> JSON -> вставьте данные в поле.
